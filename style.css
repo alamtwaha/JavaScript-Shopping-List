@@ -1,0 +1,93 @@
+body, html {
+  margin: auto 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 200px;
+  height: 100vh;
+}
+
+
+
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 80px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+button{
+  display: inline-block;
+  align-items: ;
+  margin: 0px 10px;
+  padding: 5px;
+  /*text-align: right;*/
+  cursor: pointer;
+  
+}
+
+
+.btn {
+  padding: 15px;
+  color: white;
+  margin: 0px 0px 0px 10px;
+  background-color: #e00aa3;
+  border: 1px solid #e00aa3;
+}
+
+.card {
+  /*background-color: gray;*/
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  border: 2px solid #e00aa3;
+}
+
+input {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #e00aa3;
+}
+
+
+
+
+h1 {
+  font-size: 3rem;
+  color: #e00aa3;
+  margin-top: 0px;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-top: -20px;
+}
+
+li {
+  padding: 10px 0px;
+  text-align: left;
+}
+
+ol {
+  border: 1px solid #e00aa3;
+}
